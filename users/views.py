@@ -3,6 +3,9 @@ from .forms import UserRegistrationForm
 from django.contrib.auth import login
 from django.contrib.auth.decorators import login_required
 
+def home(request):
+    return render(request, "registration/register.html")
+
 
 def register(request):
     if request.method == 'POST':
