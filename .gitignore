@@ -1,0 +1,37 @@
+# Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Virtual environment
+venv/
+.env/
+.venv/
+
+# PyCharm IDE files
+.idea/
+
+# Django migrations
+*/migrations/*
+*/migrations/__init__.py
+
+# Database files
+db.sqlite3
+
+# Logs
+*.log
+
+# Static files
+/static/
+
+# Media files
+/media/
+
+# Linux system files
+*.swp
+
+# JetBrains files (intellij, PyCharm, etc)
+.idea/vcs.xml
+.idea/*.iml
+.idea/*/*.iml
