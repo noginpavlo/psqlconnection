@@ -11,6 +11,7 @@ venv/
 
 # PyCharm IDE files
 .idea/
+.idea/vcs.xml
 
 # Django migrations
 */migrations/*
